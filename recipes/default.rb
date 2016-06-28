@@ -69,6 +69,17 @@ cookbook_file "/etc/nginx/ssl/nginx.key" do
   action :create
 end
 
+#create and Copy ssl key file
+cookbook_file "/usr/share/nginx/html/index.html" do
+  source "index.html"
+  owner "root"
+  group "root"
+  mode  "0755"
+  action :create
+end
+
+
+
 
 
 service 'nginx' do
