@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: ngnix_naxsi_direct
+# Cookbook Name:: ngnix
 # Recipe:: default
 #
-# Copyright 2016, YOUR_COMPANY_NAME
+# Copyright 2016, OPEX SOFTWARE
 #
 # All rights reserved - Do Not Redistribute
 
@@ -44,7 +44,7 @@ end
 
 
 #create ssl directory
-directory node['nginx-naxsi']['nginx_ssl'] do
+directory node['nginx']['nginx_ssl'] do
   action :create
   recursive true
 end

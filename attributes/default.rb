@@ -1,10 +1,3 @@
-default['nginx-naxsi']['backend_server'] = "192.168.33.17"
 default['nginx']['nginx_cache_dir'] = "/var/cache/nginx"
-default['nginx-naxsi']['nginx_ssl'] = "/etc/nginx/ssl"
+default['nginx']['nginx_ssl'] = "/etc/nginx/ssl"
 
-default['nginx-naxsi']['nginx_url'] = "http://nginx.org/download/nginx-1.9.9.tar.gz"
-default['nginx-naxsi']['naxsi_url'] = "https://github.com/nbs-system/naxsi/archive/master.zip"
-default['nginx-naxsi']['nginx_tar'] = "nginx-1.9.9.tar.gz"
-default['nginx-naxsi']['naxsi_zip'] = "naxsi-master.zip"
-default['nginx-naxsi']['hostname'] = "192.168.33.17"
-default['nginx-naxsi']['webapps_path'] = "/var/lib/tomcat7/webapps/ROOT/"
