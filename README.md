@@ -3,7 +3,7 @@ ng Cookbook
 TODO: Enter the cookbook description here.
 
 e.g.
-This cookbook makes your favorite breakfast sandwich.
+Install and configure the nginx and serves under-maintenance site.
 
 Requirements
 ------------
